@@ -131,11 +131,10 @@ Database name: **`election`**
 | IRV (Instant Runoff / Ranked Choice) | Voters rank candidates in order of preference | If no candidate gets 50%+ of first-choice votes, the lowest candidate is eliminated and votes are transferred until one candidate passes 50% |
 ## Suggested Repository Folder Layout
     Election-Management-System/
-    │-- main.py
+    │-- output_screenshots
     │-- README.md
-    │-- requirements.txt
-    │-- /assets
-    │-- /screenshots
+    │-- election.sql
+    │-- main_program.py
 ## Additional Notes
   - Admin selects voting mode before voting begins
   - Voters cannot vote twice — validated using name + voter number
